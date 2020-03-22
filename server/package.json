@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
     "node-fetch": "^2.6.0",
     "passport": "^0.4.1",
     "pg": "^7.18.2",
+    "properties-reader": "^1.0.0",
     "underscore": "^1.9.2"
   },
   "devDependencies": {
